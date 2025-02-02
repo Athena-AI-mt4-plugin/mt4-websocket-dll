@@ -1,30 +1,32 @@
-# Ignore Visual Studio & CMake build files
-*.sln
-*.vcxproj*
-*.vcxproj.filters
-*.vcxproj.user
-CMakeCache.txt
-CMakeFiles/
-build/
-Debug/
-Release/
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
 *.obj
-*.lib
-*.exp
-*.pdb
-*.ilk
 
-# Ignore compiled DLLs and executables
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
 *.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
 *.exe
-
-# Ignore OpenSSL-generated certificates (Security)
-certs/server-cert.pem
-certs/server-key.pem
-
-# Ignore system-specific files
-.vscode/
-.idea/
-*.log
-*.DS_Store
-Thumbs.db
+*.out
+*.app
